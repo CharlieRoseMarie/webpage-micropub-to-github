@@ -6,6 +6,8 @@
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat)](https://github.com/Flet/semistandard)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvoxpelli%2Fwebpage-micropub-to-github.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvoxpelli%2Fwebpage-micropub-to-github?ref=badge_shield)
 
+Fork of [voxpelli/webpage-micropub-to-github](https://github.com/voxpelli/webpage-micropub-to-github)
+
 An endpoint that accepts [Micropub](http://micropub.net/) requests, formats them into [Jekyll](http://jekyllrb.com/) posts before pushing them to a configured GitHub repository. This enables updating a Jekyll blog through a [Micropub client](https://indieweb.org/Micropub/Clients).
 
 ### _Early alpha_
@@ -29,7 +31,7 @@ This project contains a [https://yarnpkg.com/](Yarn) lock file which is a faster
 
 Install as a normal Node.js application. Add the required [configuration](#configuration) values via environment variables or similar mechanism. Or deploy to Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/voxpelli/webpage-micropub-to-github)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CharlieRoseMarie/webpage-micropub-to-github)
 
 ## Endpoint discovery
 
